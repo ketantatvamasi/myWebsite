@@ -52,24 +52,23 @@ get_header(); ?>
                         </div>
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-072000c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="072000c" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b3906fe" data-id="b3906fe" data-element_type="column">
+                                <div class="elementor-column  elementor-inner-column elementor-element elementor-element-b3906fe" data-id="b3906fe" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-01a0393 elementor-widget elementor-widget-button" data-id="01a0393" data-element_type="widget" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a href="#" class="elementor-button-link elementor-button elementor-size-md btn" role="button">
-						<span class="elementor-button-content-wrapper">
-							<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fab fa-google-play"></i>			</span>
-						<span class="elementor-button-text">Get android app</span>
-		</span>
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-icon elementor-align-icon-left"><i aria-hidden="true" class="fab fa-google-play"></i></span>
+                                                            <span class="elementor-button-text">Get android app</span>
+                                                        </span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-90a34a4" data-id="90a34a4" data-element_type="column">
+                                <div class="elementor-column  elementor-inner-column elementor-element elementor-element-90a34a4" data-id="90a34a4" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-626a6d0 elementor-widget elementor-widget-button" data-id="626a6d0" data-element_type="widget" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
@@ -93,7 +92,7 @@ get_header(); ?>
                     <div class="elementor-widget-wrap elementor-element-populated marquee" style="margin-left: 4rem;">
                         <div class="elementor-element elementor-element-8fef1c3 elementor-widget elementor-widget-image" data-id="8fef1c3" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <marquee class="imageMarquee" direction = "up" height="500" behavior="alternate">
+                                <marquee class="imageMarquee" direction="up" height="500" behavior="alternate">
                                     <img width="465" height="821" src="http://localhost/mywebsite/wp-content/uploads/2022/06/merchants.9edaff14-1.png" class="attachment-large size-large" alt="" loading="lazy" srcset="http://localhost/mywebsite/wp-content/uploads/2022/06/merchants.9edaff14-1.png 465w, http://localhost/mywebsite/wp-content/uploads/2022/06/merchants.9edaff14-1-114x300.png 170w" sizes="(max-width: 465px) 100vw, 465px">
                                 </marquee>
                             </div>
@@ -102,7 +101,6 @@ get_header(); ?>
                 </div>
             </div>
         </section>
-<!--        <marquee direction = "up">The direction of text will be from bottom to top.</marquee>-->
 		<?php astra_primary_content_bottom(); ?>
 
 	</div><!-- #primary -->

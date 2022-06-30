@@ -61,13 +61,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         $('[data-showicon]').hover(function(){
             var showIcon = $(this).attr('data-showicon');
-                $('.'+showIcon).css("transform", "scale(1.2)");
-            }, function(){
-                var showIcon = $(this).attr('data-showicon');
-                $('.'+showIcon).css("transform", "scale(1)");
+            $('.'+showIcon).css("transform", "scale(1.2)");
+        }, function(){
+            var showIcon = $(this).attr('data-showicon');
+            $('.'+showIcon).css("transform", "scale(1)");
         });
     })( jQuery );
-
 </script>
 	</body>
 </html>
