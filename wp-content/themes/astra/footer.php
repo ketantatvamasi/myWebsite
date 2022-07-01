@@ -66,6 +66,18 @@ if ( ! defined( 'ABSPATH' ) ) {
             var showIcon = $(this).attr('data-showicon');
             $('.'+showIcon).css("transform", "scale(1)");
         });
+        var height = $("#home").height();
+        // $('#backToTop').hide();
+        $(window).scroll(function(){
+            // $("span").text( x+= 1);
+            if ( $(this).scrollTop() > height) {
+                $('#backToTop').fadeIn();
+                $("#backToTop").css({ "z-index": "1" });
+            } else {
+                $('#backToTop').fadeOut();
+            }
+        });
+        //
     })( jQuery );
 </script>
 	</body>
