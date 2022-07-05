@@ -8525,7 +8525,7 @@ if (!defined('ABSPATH')) {
     }
 
     .feature-slider .feature-box.synced h4, .feature-slider .feature-box.synced p {
-        color: #fff;
+        color: #fff!important;
         transition: all .3s ease-in-out 0s;
         -webkit-transition: all .3s ease-in-out 0s;
         -moz-transition: all .3s ease-in-out 0s
@@ -8570,7 +8570,7 @@ if (!defined('ABSPATH')) {
             color: #cce9f6
         }
 
-        .section-app-features .bg-secondary.inner-container .feature-slider .display-mobile {
+        .section-app-features .inner-container .feature-slider .display-mobile {
             background-size: 300px auto !important;
             margin: auto;
             max-height: 360px;
@@ -8582,7 +8582,7 @@ if (!defined('ABSPATH')) {
             padding: 0 16px
         }
 
-        .section-app-features .bg-secondary.inner-container .feature-slider .display-mobile img {
+        .section-app-features .inner-container .feature-slider .display-mobile img {
             width: auto;
             min-width: 100%;
             max-width: 100%;
@@ -8726,14 +8726,14 @@ if (!defined('ABSPATH')) {
         }
 
         .feature-slider .feature-list .item.synced h4, .feature-slider .feature-list .item.synced p {
-            color: #fff;
+            color: #fff!important;
             transition: all .3s ease-in-out 0s;
             -webkit-transition: all .3s ease-in-out 0s;
             -moz-transition: all .3s ease-in-out 0s
         }
 
         .feature-slider .feature-list .item.synced span {
-            background: #fff
+            background: #fff!important;
         }
 
         .feature-slider .feature-list .item:last-child:before, .feature-slider .feature-list .item:nth-child(6):before {
