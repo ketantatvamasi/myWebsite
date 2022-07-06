@@ -79,16 +79,16 @@ wp_footer();
     //     });
     //     //
     // })( jQuery );
-    (function($) {
-        $('[data-showme]').hover(function(){
-            var showme = $(this).attr('data-showme');
-            $('.'+showme).addClass('synced');
-        }, function(){
-            var showme = $(this).attr('data-showme');
-            $('.'+showme).removeClass('synced');
-        });
-
-    })( jQuery );
+    // (function($) {
+    //     $('[data-showme]').hover(function(){
+    //         var showme = $(this).attr('data-showme');
+    //         $('.'+showme).addClass('synced');
+    //     }, function(){
+    //         var showme = $(this).attr('data-showme');
+    //         $('.'+showme).removeClass('synced');
+    //     });
+    //
+    // })( jQuery );
     "function" != typeof Object.create && (Object.create = function (t) {
         function e() {
         }
